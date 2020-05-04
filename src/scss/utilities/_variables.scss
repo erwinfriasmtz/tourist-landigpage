@@ -1,18 +1,20 @@
 /* ********** Custom Properties ********** */
 :root {
-  --primary-font:     'Averta Regular';
-  --secondary-font:   'Averta Black';
+  --primary-font:     'Raleway';
+  --primary-font-thin: 'Raleway Thin';
+  --primary-font-light: 'Raleway Light';
+  --primary-font-black: 'Raleway Black';
+  --secondary-font:   Arial;
   --font-size: 16px;
   --line-height: 1.6;
 
-  --primary-color:    #021E35;
-  --secondary-color:  #00ABFF;
-  --tertiary-color:   #12CBC4;
-  --quaternary-color: #000;
-  --quinary-color:    #FFF;
+  --primary-color:    #08AEEA;
+  --secondary-color:  #2AF598;
+  --tertiary-color:   #141418;
+  --quaternary-color: #FFF;
 
-  --text-color-black: var(--quaternary-color);
-  --text-color-white: var(--quinary-color);
+  --text-color-black: var(--tertiary-color);
+  --text-color-white: var(--quaternary-color);
 
   --z-index-down:   25;
   --z-index-middle: 50;

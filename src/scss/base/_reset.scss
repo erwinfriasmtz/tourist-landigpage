@@ -6,7 +6,7 @@ html {
   font-size: var(--font-size);
   line-height:  var(--line-height);
   color: var(--text-color-black);
-  background-color: var(--primary-color);
+  background-color: var(--quaternary-color);
 }
 
 *,
@@ -23,7 +23,4 @@ ul, ol { list-style: none; }
 
 a { text-decoration: none;}
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+img { max-width: 100%; height: auto; }
