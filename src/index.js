@@ -1,7 +1,14 @@
+/* ********** CSS ********** */
+import scss from './scss/main.scss'
+
+
 /* ********** Images ********** */
 import logo from './images/logo.svg'
+import favicon from './images/favicon.png'
 
 
-/* ********** CSS ********** */
+/* ********** JavaScript ********** */
+import { activeMenu, activeMenuLink } from './js/menu'
 
-import scss from './scss/main.scss'
+activeMenu('hamburger', 'menu')
+activeMenuLink()

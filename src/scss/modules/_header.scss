@@ -1,0 +1,20 @@
+/* ********** Menu Component ********** */
+.header {
+  background-color: var(--quaternary-color);
+  color: var(--text-color-black);
+  position: sticky;
+  top: 0;
+  z-index: var(--z-index-up);
+
+  // header__container
+  &__container {
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include mq(m) { width: 100%; }
+  }
+}
