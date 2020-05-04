@@ -42,7 +42,7 @@ Made with 💖 by [ErwCode Technologies](https://erwcode.com/).
 [node-url]: https://nodejs.org
 
 [mit-license-image]: https://img.shields.io/github/license/erwinfriasmtz/tourist-landingpage.svg
-[mit-license-url]: https://github.com/erwcode/webpack-starter-kit/blob/master/LICENSE
+[mit-license-url]: https://github.com/erwinfriasmtz/tourist-landingpage/blob/master/LICENSE
 
 [contributors]: https://img.shields.io/github/contributors/erwinfriasmtz/tourist-landingpage.svg?color=orange
 [contributors-url]: https://github.com/erwinfriasmtz/tourist-landingpage/graphs/contributors
