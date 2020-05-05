@@ -1,0 +1,71 @@
+/* ********** Services Component ********** */
+.services {
+  margin: 2em auto;
+  text-align: center;
+  color: var(--text-color-black);
+
+  @include mq(m) { margin: 4em auto; text-align: left; }
+
+  // services__container
+  &__container {
+    @include mq(m) {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-areas: "topic gallery gallery";
+      justify-content: center;
+      align-items: start;
+
+      .services__item:first-child {
+        grid-area: topic;
+        margin-right: 1.5em;
+       }
+
+      .services__item:last-child {
+        grid-area: gallery;
+
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        align-items: start;
+        gap: 1em;
+      }
+    }
+  }
+
+  // services__span
+  &__span { display: block; text-transform: uppercase; }
+
+  // services__topic
+  &__topic { margin: 0 auto 1em; }
+
+  // services__gallery
+  &__gallery {
+    margin: 2em auto;
+    width: 90%;
+
+    @include mq(m) { margin: 0; width: 100%; }
+  }
+
+  // services__image
+  &__image {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  // services__title
+  &__title {
+    display: block;
+    margin: 1em auto;
+    text-transform: uppercase;
+    font-family: var(--primary-font-black);
+    font-size: 1.1em;
+
+    @include mq(m) { font-size:  .8em; }
+  }
+
+  // services__content
+  &__content {
+    @include mq(m) { font-size: .8em; }
+  }
+}
