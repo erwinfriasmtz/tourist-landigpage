@@ -1,0 +1,39 @@
+/* ********** Video Component ********** */
+.video {
+  $color: rgba(0,0,0,.9);
+  background: linear-gradient(rgba($color,.9),rgba($color,.9)), url('/assets/images/beach.jpg') center / cover;
+  position: relative;
+  min-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-attachment: fixed;
+
+  // video__container
+  &__container {
+    padding-top: 2em;
+    text-align: center;
+    color: var(--text-color-white);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+  }
+
+  // video__image
+  &__image {
+    $border-color: #4B54FA;
+    margin-top: 2em;
+    border-bottom: $border-color 5px solid;
+
+    @include mq(m) {
+      width: 80%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    @include mq(l) { width: 70%; }
+  }
+}

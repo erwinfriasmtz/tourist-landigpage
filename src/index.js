@@ -17,6 +17,9 @@ import fire from './images/fire.jpg'
 import flight from './images/flight.jpg'
 import hotel from './images/hotel.jpg'
 
+import beach from './images/beach.jpg'
+import video from './images/video.jpg'
+
 
 /* ********** JavaScript ********** */
 import { activeMenu, activeMenuLink } from './js/menu'
