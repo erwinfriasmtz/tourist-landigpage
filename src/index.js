@@ -18,6 +18,15 @@ import flight from './images/flight.jpg'
 import hotel from './images/hotel.jpg'
 
 
+import beach from './images/beach.jpg'
+import video from './images/video.jpg'
+
+import star from './images/star.svg'
+import world from './images/world.svg'
+import tour from './images/tour.svg'
+import building from './images/building.svg'
+
+
 /* ********** JavaScript ********** */
 import { activeMenu, activeMenuLink } from './js/menu'
 
