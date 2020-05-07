@@ -14,10 +14,12 @@
 
 
 /*  Module Rules ================================ */
-@import 'modules/header.scss';
-@import 'modules/menu.scss';
+@import 'modules/header';
+@import 'modules/menu';
 @import 'modules/heroSlider';
-@import 'modules/services.scss';
+@import 'modules/services';
+@import 'modules/video';
+@import 'modules/statics';
 
 
 /*  State Rules ================================= */

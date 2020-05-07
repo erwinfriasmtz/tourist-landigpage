@@ -1,0 +1,25 @@
+/* ********** Statics Component ********** */
+.statics {
+    margin: 2em auto;
+    text-align: center;
+    color: var(--text-color-black);
+
+    @include mq(m) { margin: 4em auto; }
+
+    // statics__item
+    &__item {
+        display: grid;
+        grid-template-columns: auto auto;
+        
+        @include mq(m) { display: grid; grid-template-columns: auto auto auto auto; }
+    }
+
+    // statics__span
+    &__span { text-transform: uppercase; }
+
+    // statics__num
+    &__num { font-size: 2em; margin-top: .5em; }
+
+    //statics__image
+    &__image { margin-top: 1em; }
+}

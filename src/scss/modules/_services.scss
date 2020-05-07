@@ -1,52 +1,71 @@
 /* ********** Services Component ********** */
-
 .services {
+  margin: 2em auto;
+  text-align: center;
+  color: var(--text-color-black);
 
-  // Services Grid
-  &__grid {
-    display: grid;
-    grid-template-columns: auto;
-    margin-top: 2em;  
+  @include mq(m) { margin: 4em auto; text-align: left; }
 
+  // services__container
+  &__container {
     @include mq(m) {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-areas: "topic gallery gallery";
+      justify-content: center;
+      align-items: start;
+
+      .services__item:first-child {
+        grid-area: topic;
+        margin-right: 1.5em;
+       }
+
+      .services__item:last-child {
+        grid-area: gallery;
+
         display: grid;
-        grid-template-columns: auto auto auto auto;
-     }
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        align-items: start;
+        gap: 1em;
+      }
+    }
   }
 
-  // Services Item
-  &__item {
-    padding: 20px;
-    background-color: white;
+  // services__span
+  &__span { display: block; text-transform: uppercase; }
+
+  // services__topic
+  &__topic { margin: 0 auto 1em; }
+
+  // services__gallery
+  &__gallery {
+    margin: 2em auto;
+    width: 90%;
+
+    @include mq(m) { margin: 0; width: 100%; }
   }
 
-  // Services Item-Discover
-  &__discover {
-    text-transform: uppercase; 
-    color: darkgray;
-    font-size: .9em;
-  }
-
-  // Services Item-Title
-  &__title {
-    text-transform: uppercase;
-    font-size: 1em;
-    @include mq(m) { font-size: 1.5em; }
-    @include mq(l) { font-size: .9em; }
-  }
-
-  // Services Item-Description
-  &__description {
-      color: darkgray;
-      font-size: .9em;
-      @include mq(m) { font-size: 1em; }
-      @include mq(l) { font-size: .7em; }
-  }
-
-  // Services Image
+  // services__image
   &__image {
-      width: 100%;
-      height: auto;
+    width: 350px;
+    height: auto;
+    object-fit: cover;
   }
 
+  // services__title
+  &__title {
+    display: block;
+    margin: 1em auto;
+    text-transform: uppercase;
+    font-family: var(--primary-font-black);
+    font-size: 1.1em;
+
+    @include mq(m) { font-size:  .8em; }
+  }
+
+  // services__content
+  &__content {
+    @include mq(m) { font-size: .8em; }
+  }
 }
