@@ -26,6 +26,10 @@ import world from './images/world.svg'
 import tour from './images/tour.svg'
 import building from './images/building.svg'
 
+import santorini from './images/santorini.jpg'
+import pucket from './images/pucket.jpg'
+import paris from './images/paris.jpg'
+
 
 /* ********** JavaScript ********** */
 import { activeMenu, activeMenuLink } from './js/menu'

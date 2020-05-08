@@ -19,7 +19,6 @@ block body
           span.hero-slider__slogan Travel with unique experience
       .scroll
         img(class="scroll__image", src="/assets/images/mouse.svg", alt="Scroll Mouse")
-  
   //- Services Section
   section.services
     .services__container.l-container
@@ -55,25 +54,28 @@ block body
 
   //- Video Section
   include ../includes/video.pug
-
-  //- Statics Section
-  section.statics
-    .statics__container.l-container
-      .statics__item
-        .statics__content
-          img(class="statics__image" src="/assets/images/star.svg", alt="Star image")
-          h3.statics__num 120,859
-          span.statics__span Happy Travellers
-        .statics__content
-          img(class="statics__image" src="/assets/images/tour.svg", alt="Tour image")
-          h3.statics__num 2594
-          span.statics__span Satisfied Tours
-        .statics__content
-          img(class="statics__image" src="/assets/images/world.svg", alt="World image")
-          h3.statics__num 854
-          span.statics__span Destination
-        .statics__content
-          img(class="statics__image" src="/assets/images/building.svg", alt="Building image")
-          h3.statics__num 978
-          span.statics__span Hotel Resorts
+  //- Experience Section
+  section.experience
+    .experience__container.l-container
+      .experience__item
+        img(class="experience__image", src="/assets/images/star.svg", alt="Happy Travellers")
+        span.experience__counter 120,859
+        h3.experience__name Happy Travellers
+      .experience__item
+        img(class="experience__image", src="/assets/images/tour.svg", alt="Satisfied Tours")
+        span.experience__counter 2594
+        h3.experience__name Satisfied Tours
+      .experience__item
+        img(class="experience__image", src="/assets/images/world.svg", alt="Destination")
+        span.experience__counter 854
+        h3.experience__name Destination
+      .experience__item
+        img(class="experience__image", src="/assets/images/building.svg", alt="Hotel Resorts")
+        span.experience__counter 978
+        h3.experience__name Hotel Resorts
+  
+  //- Offers Section
+  include ../includes/offers.pug
+      
+           
 
