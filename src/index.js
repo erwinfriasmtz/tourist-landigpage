@@ -30,6 +30,20 @@ import santorini from './images/santorini.jpg'
 import pucket from './images/pucket.jpg'
 import paris from './images/paris.jpg'
 
+import surf from './images/surf.jpg'
+
+import avatar1 from './images/avatar1.png'
+import avatar2 from './images/avatar2.png'
+import avatar3 from './images/avatar3.png'
+import icon from './images/icon.svg'
+
+import mountain from './images/mountain.jpg'
+
+import buttom from './images/buttom.svg'
+import thailand from './images/thailand.jpg'
+import italy from './images/italy.jpg'
+import indonesia from './images/indonesia.jpg'
+
 
 /* ********** JavaScript ********** */
 import { activeMenu, activeMenuLink } from './js/menu'

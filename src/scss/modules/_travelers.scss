@@ -1,0 +1,67 @@
+/* ********** Travelers Component ********** */
+.travelers {
+    margin: 2em auto;
+    text-align: center;
+    align-items: center;
+    color: var(--text-color-black);
+
+    // Travelers Topic
+    &__topic { 
+        font-size: 1.5em; 
+        @include mq(m) {font-size: 2em}    
+    }
+
+    // Travelers Item
+    &__item {
+        margin: 2em auto; 
+        @include mq(m) {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            justify-content: center;
+            align-items: center;       
+        }
+    }
+
+    // Travelers Span
+    &__span {
+        display: block;
+        text-transform: uppercase;
+        font-family: var(--primary-font-thin);
+        padding-top: 2em;
+    }
+
+    // Travelers Card
+    &__card {
+        box-shadow: 0 4px 8px 0 #F4F4F4;
+        background-color: #F4F4F4;
+        transition: 0.3s;
+        margin: 2em auto;
+        width: 90%;
+
+        &:hover {
+            box-shadow: 0 8px 16px 0 var(--primary-color);
+        }
+    }
+
+    //Travelers Name
+    &__name {
+        color: var(--primary-color);
+        display: block;
+    }
+
+    // Travelers Comment
+    &__comment {
+        display: block;
+        padding: 2em;
+    }
+
+    // Traveler Avatar
+    &__avatar {
+        padding-top: 2em;
+    }
+
+    // Traveler Icon
+    &__icon {
+        padding-bottom: 2em;
+    }
+}
