@@ -1,0 +1,88 @@
+/* ********** Email Component ********** */
+.email {
+
+    $color: rgba(8,174,234,.9);
+    $color2: rgba(42,245,152,.9);
+    background: linear-gradient(rgba($color,.9),rgba($color2,.9)), url('/assets/images/surf.jpg') center / cover;  
+    position: relative;
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-attachment: fixed;
+
+    // Email Item
+    &__item {
+        margin: 2em auto;
+        padding-top: 4em;
+        padding-bottom: 1em;
+        position: relative;
+    }
+
+    // Email Form
+
+    &__form {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 4em;
+    }
+
+    // Email Title
+    &__title {
+        display: block;
+        color: var(--text-color-white);
+        font-size: 1.5em;
+        text-align: center;
+        @include mq(m) {
+            font-size: 2.2em;
+        }
+    }
+
+    // Email Subtitle
+    &__subtitle {
+        display: block;
+        color: var(--text-color-white);
+        text-align: center;
+    }
+
+    // Email Input
+    &__input {
+        height: 3em;
+        width: 60%;
+        border: 2px solid var(--quaternary-color);
+        border-radius: 2em;
+        outline: none;
+        color: var(--text-color-white);
+        background-color: transparent;
+        @include mq(m) {
+            width: 50%;
+        }         
+    }
+
+    ::placeholder {color: var(--quaternary-color);}
+
+    //Email Buttom
+    &__buttom {
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 500;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: var(--primary-color);
+        background-color: var(--quaternary-color);
+        border: 2px solid var(--quaternary-color);
+        border-radius: 2em;
+        margin-left: .5em;
+
+        &:hover {
+            $color: rgba(8,174,234,.9);
+            $color2: rgba(42,245,152,.9);
+            background: linear-gradient(rgba($color,.9),rgba($color2,.9));
+            color: var(--quaternary-color);
+            text-decoration: none;
+        }
+    }
+}

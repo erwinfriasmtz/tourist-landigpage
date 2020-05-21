@@ -76,6 +76,80 @@ block body
   
   //- Offers Section
   include ../includes/offers.pug
+  //- Email Section
+  section.email
+    .email__container.l-container
+      .email__item
+        h3.email__title Get 10% Off on Your Next Travel
+        p.email__subtitle Maximum doscout 1000$ per person
+      .email__form
+        input(class="email__input" type="email" placeholder="  Enter Your Email")
+        a(class="email__buttom" href="#") Subscribe
+  //- Travelers Section
+  section.travelers
+    .travelers__container.l-container
+      span.travelers__span Our Smile
+      h3.travelers__topic Happy Travelers
+      .travelers__item
+        .travelers__card
+          img(class="travelers__avatar" src="/assets/images/avatar1.png", alt="Avatar Travel")
+          span.travelers__name Ribeca Singh
+          p.travelers__comment Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+          img(class="travelers__icon" src="/assets/images/icon.svg", alt="icon")
+        .travelers__card
+          img(class="travelers__avatar" src="/assets/images/avatar2.png", alt="Avatar Travel")
+          span.travelers__name Jimmy Dean
+          p.travelers__comment Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+          img(class="travelers__icon" src="/assets/images/icon.svg", alt="icon")
+        .travelers__card
+          img(class="travelers__avatar" src="/assets/images/avatar3.png", alt="Avatar Travel")
+          span.travelers__name Theodule Terer
+          p.travelers__comment Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+          img(class="travelers__icon" src="/assets/images/icon.svg", alt="icon")
+  //- Section Ready
+  section.ready
+    .ready__container
+      .ready__img
+        img(class="ready__image" src="/assets/images/mountain.jpg", alt="Mountains Travel")
+        .ready__content
+          h3.ready__title Ready to plan your trip?
+          a(class="ready__buttom" href="#") Book Now
+  //- Countries Section
+  section.countries
+    .countries__container.l-container
+      span.countries__span Destination
+      h3.countries__topic Popular Tourism Countries
+      .countries__grid
+        .countries__item
+          img(class="countries__img" src="/assets/images/thailand.jpg", alt="Thailand Country")
+          .countries__content
+            h4.countries__name Thailand
+            span.countries__price $900 - $1900
+            a(class="countries__buttom" href="#") ->
+        .countries__item
+          img(class="countries__img" src="/assets/images/italy.jpg", alt="Italy Country")
+          .countries__content
+            h4.countries__name Italy
+            span.countries__price $700 - $2000
+            a(class="countries__buttom" href="#") ->
+        .countries__item
+          img(class="countries__img" src="/assets/images/indonesia.jpg", alt="Indonesia Country")
+          .countries__content
+            h4.countries__name Indonesia
+            span.countries__price $300 - $1100
+            a(class="countries__buttom" href="#") ->
+        .countries__item
+          img(class="countries__img" src="/assets/images/thailand.jpg", alt="Singapore Country")
+          .countries__content
+            h4.countries__name Singapore
+            span.countries__price $1900 - $2700
+            a(class="countries__buttom" href="#") ->
+  //- Ubication Section
+  include ../includes/ubication.pug
+
+            
+
+
       
            
 
