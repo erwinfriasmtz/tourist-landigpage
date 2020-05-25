@@ -1,9 +1,10 @@
 /*  SMACSS & BEM ARCHITECTURE FOR CSS | MIT License */
 
 /*  Utilities Rules ============================== */
+@import 'utilities/fonts';
 @import 'utilities/variables';
 @import 'utilities/mixins';
-@import 'utilities/fonts';
+
 
 /*  Base Rules ================================== */
 @import 'base/reset';
@@ -23,7 +24,6 @@
 @import 'modules/offers';
 @import 'modules/email';
 @import 'modules/travelers';
-@import 'modules/ready';
 @import 'modules/countries';
 @import 'modules/ubication';
 @import 'modules/footer';

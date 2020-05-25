@@ -34,7 +34,7 @@
         display: block;
         padding-top: 2em;
         font-size: 1.5em;
-        @include mq(m) {font-size: 1em;}
+        @include mq(m) {font-size: 1em; padding-top: 3em;}
     }
 
     // Footer Links
@@ -42,12 +42,14 @@
         display: block;
         color: var(--text-color-white);
         padding-top: 1em;
+        font-size: .9em;
     }
 
     // Footer Address
     &__address {
         display: block;
         padding-top: 1em;
+        font-size: .9em;
     }
 
     // Footer Form
@@ -58,6 +60,7 @@
         border-radius: .5em;
         outline: none;
         color: var(--text-color-black);
+        padding-left: 1em;
         background-color: var(--quaternary-color);
         @include mq(m) {
             width: 70%;
