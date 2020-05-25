@@ -44,6 +44,8 @@ import thailand from './images/thailand.jpg'
 import italy from './images/italy.jpg'
 import indonesia from './images/indonesia.jpg'
 
+import arrow from './images/arrow.svg'
+
 
 /* ********** JavaScript ********** */
 import { activeMenu, activeMenuLink } from './js/menu'

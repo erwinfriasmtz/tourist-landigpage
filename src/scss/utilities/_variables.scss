@@ -1,6 +1,6 @@
 /* ********** Custom Properties ********** */
 :root {
-  --primary-font:     'Raleway';
+  --primary-font:     'Raleway Regular';
   --primary-font-thin: 'Raleway Thin';
   --primary-font-light: 'Raleway Light';
   --primary-font-black: 'Raleway Black';
@@ -12,6 +12,9 @@
   --secondary-color:  #2AF598;
   --tertiary-color:   #141418;
   --quaternary-color: #FFF;
+  --five-color: #4B54FA;
+  --six-color: #F4F4F4;
+  --seven-color: rgb(156, 154, 154);
 
   --text-color-black: var(--tertiary-color);
   --text-color-white: var(--quaternary-color);

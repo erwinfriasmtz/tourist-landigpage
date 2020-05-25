@@ -20,6 +20,7 @@ block body
       .scroll
         img(class="scroll__image", src="/assets/images/mouse.svg", alt="Scroll Mouse")
   //- Services Section
+  a(name="services")
   section.services
     .services__container.l-container
       .services__item
@@ -55,6 +56,7 @@ block body
   //- Video Section
   include ../includes/video.pug
   //- Experience Section
+  a(name="experience")
   section.experience
     .experience__container.l-container
       .experience__item
@@ -83,7 +85,7 @@ block body
         h3.email__title Get 10% Off on Your Next Travel
         p.email__subtitle Maximum doscout 1000$ per person
       .email__form
-        input(class="email__input" type="email" placeholder="  Enter Your Email")
+        input(class="email__input" type="email" placeholder="Enter Your Email")
         a(class="email__buttom" href="#") Subscribe
   //- Travelers Section
   section.travelers
@@ -106,14 +108,11 @@ block body
           span.travelers__name Theodule Terer
           p.travelers__comment Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
           img(class="travelers__icon" src="/assets/images/icon.svg", alt="icon")
-  //- Section Ready
-  section.ready
-    .ready__container
-      .ready__img
-        img(class="ready__image" src="/assets/images/mountain.jpg", alt="Mountains Travel")
-        .ready__content
-          h3.ready__title Ready to plan your trip?
-          a(class="ready__buttom" href="#") Book Now
+    .travelers__img
+      img(class="travelers__image" src="/assets/images/mountain.jpg", alt="Mountains Travel")
+      .travelers__content
+        h3.travelers__title Ready to plan your trip?
+        a(class="travelers__buttom" href="#") Book Now
   //- Countries Section
   section.countries
     .countries__container.l-container
@@ -125,25 +124,25 @@ block body
           .countries__content
             h4.countries__name Thailand
             span.countries__price $900 - $1900
-            a(class="countries__buttom" href="#") ->
+            a(class="countries__buttom" href="#"): img(class="countries__arrow" src="/assets/images/arrow.svg", alt="Arrow")
         .countries__item
           img(class="countries__img" src="/assets/images/italy.jpg", alt="Italy Country")
           .countries__content
             h4.countries__name Italy
             span.countries__price $700 - $2000
-            a(class="countries__buttom" href="#") ->
+            a(class="countries__buttom" href="#"): img(class="countries__arrow" src="/assets/images/arrow.svg", alt="Arrow")
         .countries__item
           img(class="countries__img" src="/assets/images/indonesia.jpg", alt="Indonesia Country")
           .countries__content
             h4.countries__name Indonesia
             span.countries__price $300 - $1100
-            a(class="countries__buttom" href="#") ->
+            a(class="countries__buttom" href="#"): img(class="countries__arrow" src="/assets/images/arrow.svg", alt="Arrow")
         .countries__item
           img(class="countries__img" src="/assets/images/thailand.jpg", alt="Singapore Country")
           .countries__content
             h4.countries__name Singapore
             span.countries__price $1900 - $2700
-            a(class="countries__buttom" href="#") ->
+            a(class="countries__buttom" href="#"): img(class="countries__arrow" src="/assets/images/arrow.svg", alt="Arrow")
   //- Ubication Section
   include ../includes/ubication.pug
 
