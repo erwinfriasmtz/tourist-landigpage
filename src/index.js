@@ -1,3 +1,9 @@
+/* ********** Fonts ********** */
+import ralewayRegular  from './fonts/Raleway-Regular.woff'
+import ralewayLight  from './fonts/Raleway-Light.woff'
+import ralewayThin  from './fonts/Raleway-Thin.woff'
+import ralewayBlack  from './fonts/Raleway-Black.woff'
+
 /* ********** CSS ********** */
 import scss from './scss/main.scss'
 
