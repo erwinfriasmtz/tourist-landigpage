@@ -19,9 +19,9 @@
 
     // offers__card
     &__card {
-        box-shadow: 0 2px 4px 0 var(--tertiary-color);
+        box-shadow: 0 1px 2px 0 var(--tertiary-color);
         margin: 2em auto;
-        width: 90%;
+        width: 90%
     }
 
     // offers__image
@@ -46,7 +46,7 @@
         font-size: 1.2em;
         color: var(--five-color);
 
-        @include mq(m) { font-size: .7em; }
+        @include mq(m) { font-size: .6em; }
     }
 
     //offers__duration

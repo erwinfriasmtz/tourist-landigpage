@@ -1,15 +1,43 @@
 /* ********** Countries Component ********** */
 .countries {
     margin: 2em;
+    
 
     // Countries Item
-    &__item {
+    &__item-thailand {
         position: relative;
         display: flex;
         padding-bottom: 2em;
         margin: 1em;
+        min-height: 350px;
+        background: linear-gradient(rgba(255, 253, 253, 0.425), rgb(0, 0, 0)), url('/assets/images/thailand.jpg') center / cover;
         @include mq(m) {padding-bottom: 1.5em;}
     }
+
+    // Countries Item
+    &__item-italy {
+        position: relative;
+        display: flex;
+        padding-bottom: 2em;
+        margin: 1em;
+        min-height: 350px;
+        background: linear-gradient(rgba(255, 253, 253, 0.425), rgb(0, 0, 0)), url('/assets/images/italy.jpg') center / cover;
+        @include mq(m) {padding-bottom: 1.5em;}
+    }
+
+    // Countries Item
+    &__item-indonesia {
+        position: relative;
+        display: flex;
+        padding-bottom: 2em;
+        margin: 1em;
+        min-height: 350px;
+        background: linear-gradient(rgba(255, 253, 253, 0.425), rgb(0, 0, 0)), url('/assets/images/indonesia.jpg') center / cover;
+        @include mq(m) {padding-bottom: 1.5em;}
+    }
+
+    
+
 
     // Countries Content
     &__content {
@@ -39,7 +67,7 @@
         height: 120vw;    
         width: 100vw;
         object-fit: cover;
-        filter: brightness(50%);
+        
         @include mq(m) {height: 25vw;}
     }
 
@@ -47,7 +75,7 @@
     &__topic { 
         font-size: 1.5em; 
         text-align: center;
-        padding-bottom: 2em;
+        padding-bottom: 1em;
         @include mq(m) {font-size: 2em}    
     }
 
