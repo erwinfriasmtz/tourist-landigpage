@@ -77,7 +77,7 @@
         @include mq(m) {margin-left: 0;}
     }
 
-    &__but {padding-top: .2em;}
+    &__buttomContent {padding-top: .2em;}
 
     // Footer Item
     &__item {@include mq(m) {padding-bottom: 2em;}}
